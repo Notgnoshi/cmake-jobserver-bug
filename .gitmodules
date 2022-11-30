@@ -1,3 +1,6 @@
 [submodule "cmake-rs"]
 	path = cmake-rs
 	url = https://github.com/rust-lang/cmake-rs.git
+[submodule "spdlog"]
+	path = spdlog
+	url = https://github.com/gabime/spdlog.git
