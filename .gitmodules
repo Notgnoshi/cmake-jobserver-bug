@@ -4,3 +4,6 @@
 [submodule "spdlog"]
 	path = spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "cc-rs"]
+	path = cc-rs
+	url = https://github.com/rust-lang/cc-rs.git
