@@ -6,10 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [build-dependencies]
-# cc is a dependency of cxx-build. The "parallel" feature is not turned on by default, but it
-# decreases the compile time, so we want to enable it.
-# cxx-build pins the cc version, so to enable the "parallel"
-# feature, we do NOT pin the version, so that we get whatever version cxx-build pinned.
-cc = { version = "*", features = ["parallel"] }
-
+cc = { version = "1.0", features = [] }
 cmake = { path = "cmake-rs" }
