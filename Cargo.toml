@@ -10,6 +10,6 @@ edition = "2021"
 # decreases the compile time, so we want to enable it.
 # cxx-build pins the cc version, so to enable the "parallel"
 # feature, we do NOT pin the version, so that we get whatever version cxx-build pinned.
-cc = { version = "*", features = ["parallel"] }
+cc = { path = "cc-rs", features = ["parallel"] }
 
 cmake = { path = "cmake-rs" }
